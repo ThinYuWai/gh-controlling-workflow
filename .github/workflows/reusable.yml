@@ -5,7 +5,7 @@ on:
       artifact-name:
         description: The name of the deployable artifact files
         required: false
-        deafult: dist
+        default: dist
         type: string
     outputs:
       result:
